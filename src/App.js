@@ -6,7 +6,7 @@ import Book from './book'
 function App() {
   return (
   <section className='booklist'>
-    <Book />
+    <Book job='Developer'/>
     
   </section>
   );
