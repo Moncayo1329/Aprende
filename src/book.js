@@ -1,8 +1,14 @@
 import React from 'react'; 
-import Image from './Image';
-import Tittle from './Tittle';
-import { Author } from './Author';
 import './App.css'; 
+
+
+
+// importante esto 
+const Tittle = 'El Manifiesto Comunista'; 
+const author = 'Karl Marx y Friedrich Engels'
+const img ='https://m.media-amazon.com/images/I/81aDxpFVw8L._AC_UF1000,1000_QL80_.jpg';
+
+ 
 
 
 
@@ -10,9 +16,9 @@ function Book(){
 return(
 
 <article className='book'>
-    <Image />
-  <Tittle /> 
-  <Author />
+   <img src={img} alt='' width='50px' />
+<h1>{Tittle}</h1>
+<h4>{author}</h4>
 </article>
 
 
