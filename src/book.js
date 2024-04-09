@@ -1,12 +1,17 @@
 import React from 'react'; 
+import Image from './Image';
+import Tittle from './Tittle';
+
 
 
 function Book(){
 return(
 
 <article>
-    this is a Book
+    <Image />
+  <Tittle />
 </article>
+
 
 
 
