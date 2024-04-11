@@ -18,7 +18,14 @@ export const books= [
       img: 'https://m.media-amazon.com/images/I/71qHGvQQJSL._AC_UF1000,1000_QL80_.jpg',
       Title: 'El Capital', 
       author: 'Karl Marx'
-    },
+    }, 
+
+    {
+        id: '4',
+        img: 'https://m.media-amazon.com/images/I/712yKeC3kHL._SY466_.jpg',
+        Title: 'El socialismo traicionado', 
+        author: 'Roger Keeran y Thomas Kenny'
+      },
     
     
     ];
