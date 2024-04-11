@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'; 
 
 // importante esto 
-
+// onClick , onMouseOver 
 
 const clickHandler = () => {
 
