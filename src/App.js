@@ -1,13 +1,13 @@
 import React from 'react'; 
 import './App.css'; 
 import Book from './book';
-
 import { books } from './books'; 
-import { greeting } from './testing/testing';
+import Navbar from './Navbar';
 
 function App() {
-  console.log(greeting)
   return (
+ <div>
+    <Navbar />
     <section className='booklist'>
        {books.map((book, index) => (
         <Book 
@@ -18,6 +18,7 @@ function App() {
         />
       ))}
     </section>
+    </div>
   );
 }
 
