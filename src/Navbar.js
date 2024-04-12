@@ -1,14 +1,18 @@
-import React from "react"
+import React from "react";
 import './App.css'; 
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="topnav" id="myTopnav">
-      <a href="#" className="active">Inicio</a>
-      <a href="#news">Articulos</a>
-      <a href="#contact">Sobre</a>
+      <ul>
+        <li><Link to="/" className="active">Inicio</Link></li>
+        <li><Link to="/">Articulos</Link></li>
+        <li><Link to="/sobre">Sobre</Link></li>
+      </ul>
     </div>
   );
 }
 
 export default Navbar;
+

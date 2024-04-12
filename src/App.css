@@ -50,13 +50,20 @@ body{
  /* Navbar*/
 
  /* Add a black background color to the top navigation */
-.topnav {
-  background-color: #10151a;
-  overflow: hidden;
+ .topnav {
+  background-color: #10151a; /* Color de fondo */
+  overflow: hidden; /* Para manejar el desbordamiento de contenido */
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
+.topnav ul li {
+  display: inline; /* Mostrar elementos de lista en línea */
+}
+
+.topnav ul li + li {
+  margin-left: 10px; /* Añadir un margen izquierdo entre los elementos de lista */
+}
+
+.topnav ul li a {
   float: left;
   display: block;
  color: #5a6f85;
@@ -66,4 +73,40 @@ body{
   font-size: 15px;
   margin-top: 5px;
   font-weight: bold;
+}
+
+
+
+
+
+/* Sobre */
+
+.sobre {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .sobre {
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: start; */
+  }
+}
+
+.about{
+
+  background:#fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+.about h1{
+  margin-top: 0.5rem;
+}
+
+
+.about p{
+  margin-top: 0.5rem;
 }
