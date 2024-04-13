@@ -7,7 +7,7 @@ function Navbar() {
     <div className="topnav" id="myTopnav">
       <ul>
         <li><Link to="/" className="active">Inicio</Link></li>
-        <li><Link to="/">Articulos</Link></li>
+        <li><Link to="/Articulo">Articulos</Link></li>
         <li><Link to="/sobre">Sobre</Link></li>
       </ul>
     </div>

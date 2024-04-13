@@ -1,14 +1,19 @@
 import React from "react"
+import Navbar from "./Navbar"
+
 
 function Sobre(){
-return(
-    <section className='sobre'>
+return( 
 
-        <p className='about'>Hi, Soy <h1>Michael Moncayo</h1>Programe este situo web por curuiosidad y aprender sobre comunismo.
-            Este fue mi proyecto de la semana. 
-            Let me know que piensas.
-        </p>
+    <div>
+        <Navbar />
+    <section className='sobre'>
+  <p className='about'>Hi, Soy Michael Moncayo. <br></br>Programe este situo web por curuiosidad y aprender sobre comunismo.
+           <br></br> Este fue mi proyecto de la semana. 
+           <br></br> Let me know que piensas.
+  </p>
     </section>
+    </div>
 )
 
 

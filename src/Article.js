@@ -6,9 +6,9 @@ import './App.css';
 
 
 
-function Book(props) { 
+function Article(props) { 
   return (
-    <article className='book'>
+    <article className='Articulo'>
       <img src={props.img} alt='' width='50px' />
       <h1>{props.Title}</h1>
       <h4 style={{color:'#617d98' , fontSize: '0.75rem', 
@@ -17,5 +17,4 @@ function Book(props) {
   );
 }
 
-export default Book;
-
+export default Article;

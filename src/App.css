@@ -77,20 +77,20 @@ body{
 
 
 
-
-
 /* Sobre */
 
 .sobre {
-  width: 90vw;
+  width: 50vw;
   max-width: 1170px;
   margin: 5rem auto;
   display: grid;
-  gap: 2rem;
+  gap: 2rem; 
+  text-align: center;
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   .sobre {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(none);
     /* align-items: start; */
   }
 }
@@ -98,8 +98,8 @@ body{
 .about{
 
   background:#fff;
-  border-radius: 1rem;
-  padding: 1rem 2rem;
+  border-radius: 2rem;
+  padding: 5rem 2rem;
 }
 
 .about h1{
@@ -110,3 +110,39 @@ body{
 .about p{
   margin-top: 0.5rem;
 }
+
+   /* Articulos */
+
+   .Articulolist {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+  }
+  @media screen and (min-width: 768px) {
+    .Articulolist {
+      grid-template-columns: repeat(3, 1fr);
+      /* align-items: start; */
+    }
+  }
+  
+  .Articulo{
+  
+    background:#fff;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+  }
+  
+  .Articulo h1{
+    margin-top: 0.5rem;
+  }
+  
+  
+  .Articulo p{
+    margin-top: 0.5rem;
+  }
+
+
+
+  

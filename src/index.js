@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import Sobre from './Sobre';
 import reportWebVitals from './reportWebVitals';
+import Articulo from './Articulo';
 
 
 function Main() {
@@ -13,6 +14,7 @@ function Main() {
       <Link></Link>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/Articulo" element={<Articulo />} />
         <Route path="/sobre" element={<Sobre />} />
       </Routes>
     </BrowserRouter>
