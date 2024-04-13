@@ -1,16 +1,15 @@
-import React from "react"
-import Navbar from "./Navbar"
 
+import Navbar from './Navbar';
 
-function Sobre(){
-return( 
-
+function About() {
+  return (
     <div>
         <Navbar />
     <section className='sobre'>
-  <p className='about'>Hi, Soy Michael Moncayo. <br></br>Programe este situo web por curuiosidad y aprender sobre comunismo.
-           <br></br> Este fue mi proyecto de la semana. 
-           <br></br> Let me know que piensas.
+  <p className='about'>Hi, Soy Michael Moncayo. <br />
+    Programé este sitio web para tener un mapa y aprender sobre comunismo. <br />
+    Este fue mi proyecto de la semana, netamente intelectual. <br />
+    ¡Déjame saber qué piensas! <br />
   </p>
     </section>
     </div>
@@ -19,4 +18,5 @@ return(
 
 } 
 
-export default Sobre
+
+export default About;
